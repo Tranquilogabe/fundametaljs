@@ -57,6 +57,52 @@ console.log(5>6 && 7<6);
 console.log(5>6 || 7<6);
 
 
+//conversao de tipos
+
+const myNumber2 = "123";
+
+const myConvertedNumber = Number(myNumber2);
+console.log(myConvertedNumber);
+
+
+//estrutura de condicao 
+
+const age = 20
+
+if(age < 10){
+    console.log("Kid")
+}else if(age < 16){
+    console.log("teeneger")
+}else {
+    console.log("Adult")
+};
+
+
+// SWITCH
+
+const fruit = "Apple";
+
+switch(fruit){
+    case "Apple":
+        console.log("Apple is the fruit");
+        break;
+    
+    case "Banana":
+        console.log("Banana is the fruit");
+        break;
+
+    default:
+        console.log("fruit not found");
+}
+
+
+//estruturas de repeticao
+
+
+
+
+
+
 
 
 
