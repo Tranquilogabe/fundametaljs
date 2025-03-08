@@ -93,16 +93,44 @@ switch(fruit){
 
     default:
         console.log("fruit not found");
-}
+};
 
 
 //estruturas de repeticao
 
+/* aqui vamos ver as 3 principais, FOR / WHILE e DO WHILE, ja adianto que ao longo do tempo o FOR se faz mais efocoente*/
+
+//for
+for (let i = 0; i<10; i++){
+    console.log("The variable value is "+ i);
+}
+
+//while
+ let k =0;
+ while(k < 5){
+    console.log("value"+ k );
+    k++;
+
+ }
+
+
+ //do while
+
+ let j = 0;
+
+ do{
+    console.log("j value is " = j);
+    j++;
+
+ }while(j<5);
 
 
 
+ //Funcoes
 
 
+
+ 
 
 
 
