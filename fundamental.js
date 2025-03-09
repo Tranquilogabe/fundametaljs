@@ -127,12 +127,43 @@ for (let i = 0; i<10; i++){
 
 
  //Funcoes
+//function name(arg1, arg2){ body}
+
+function sayHi(name){
+    console.log("Hi" + name);
+}
+
+
+//invocacao, chamando = sayHi()
+sayHi("pilantra")
+
+
+//hoisting = içamento
+testHoinsting();
+
+
+function testHoinsting(){
+    console.log("Working")
+}
+
+
+//Arrow function
+const arrowTest = () => console.log("Take a look on the arrow");
+
+
+//conceito de truthy e falsy; arrays,listas; metodos push e pop dentro de array e lista
+
+
+//strings, concatenacao e interpolacao
 
 
 
- 
+//data e hora
 
 
+//math
+
+// BEAUTY IN !!!
 
 
 
